@@ -1,0 +1,42 @@
+.mins, .secs, .sep {
+  font-size: 100px;
+}
+
+#st{
+  background-color: #4CAF50; 
+  color: white;
+  border: 2px solid #4CAF50; 
+  font-size: 30px;
+  border-radius: 8px;
+  padding: 10px 24px;
+}
+
+#st:hover{
+  background-color: white;
+  color: black;
+}
+
+#re{
+  background-color: red;
+  color: white;
+  border: 2px solid red; 
+  font-size: 30px;
+  border-radius: 8px;
+  padding: 8px 20px;
+}
+
+#re:hover{
+  background-color: white;
+  color: black;
+}
+
+#add{
+  margin-right: 100px;
+}
+
+button[disabled] {
+  color: #8D959B !important;
+  background: #fff !important;
+}
+
+
