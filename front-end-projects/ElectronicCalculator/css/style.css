@@ -1,0 +1,84 @@
+body{
+  background-color: #818181;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+.calc{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:8%;
+  height: 380px;
+  width: 300px;
+  background-color: #dfd8d0;
+  border: 2px solid #908b85;
+  box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+
+.title{
+  padding-bottom: 5px;
+  padding-top: 5px;
+  color: #333;
+}
+
+#screen{
+ background-color: #000; 
+ height: 60px;
+ width: 257px;
+ margin-bottom: 4px;
+}
+
+#textEdit{
+  text-align: right;
+  background-color: #000;
+  height: 60px;
+  width: 248px; 
+  font-size: 25px;
+  font-weight: strong;
+  border:none;
+   
+}
+
+#block{
+  height: 250px;
+  margin-top: 0px;
+  font-size: 16px;
+}
+
+#check{
+  width: 72%;
+  background-color: #333333;
+  height: 30px;
+  margin-right:4px;
+  float:left;
+  border-style: solid;
+  border-color: #fff;
+  border-width:1.5px;
+}
+
+button{
+  cursor: pointer;
+}
+
+#clear{
+  width: 25%;
+  height: 31px;
+  background-color: #333333;
+}
+
+.same{
+  background-color: #808080;
+  width:23%;
+  height:50px;
+}
+
+.same2{
+  background-color: #333333;
+  width: 25%;
+  height:50px;
+}
+
+#equal{
+  background-color: #333333;
+  width: 23%;
+  height:50px;
+}
