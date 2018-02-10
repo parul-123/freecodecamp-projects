@@ -1,0 +1,33 @@
+body{
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("https://images3.alphacoders.com/163/163745.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height:100vh;;
+}
+.bg-overlay {
+    color: #fff;
+    padding-top: 50px;
+}
+.quote-box{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#text{
+  font-size: 25px;
+  font-family: 'Lobster';
+}
+
+#author{
+  font-size: 15px;
+  font-family: 'Lobster';
+}
+
+footer {
+  min-height: 8vh;
+  height: 15px;
+  background-color: black;
+  position:fixed;
+  bottom:0;
+  width:100%;
+}
