@@ -1,0 +1,169 @@
+h1{
+  font-weight: bold;
+}
+#circle{
+  border-radius: 50%;
+  background: linear-gradient(#1565C0 10%, #42A5F5 80%, #90CAF9);
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  margin-top: 3%;
+  box-shadow: 0px 0px 12px #222;
+}
+
+#top{
+  border-radius: 50%;
+  background-color: #094a8f;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  margin-top:5%;
+  border: 12px solid #333;
+}
+
+#center{
+  border-radius: 50%;
+  background-color: #ECE7EE;
+  width: 200px;
+  height: 200px;
+  float:left;
+  border: 12px solid #333;
+}
+
+#left{
+  border-radius: 50%;
+  background-color: #00a74a;
+  width:150px;
+  height:150px;
+  float:left;
+  border: 12px solid #333;
+  margin-top:2%;
+}
+#bottom{
+  border-radius: 50%;
+  background-color: #9f0f17;
+  width: 150px;
+  height: 150px;
+  margin: auto; 
+  margin-top:40%;
+  border: 12px solid #333;
+}
+#right{
+  border-radius: 50%;
+  background-color: #cca707;
+  width:150px;
+  height:150px;
+  float:left;
+  border: 12px solid #333;
+  margin-top:2%;
+}
+
+#top:hover,
+#left:hover,
+#right:hover,
+#bottom:hover {
+  cursor: pointer;
+}
+
+#top:active {
+  background-color: #1c8cff !important;
+}
+
+#left:active {
+  background-color: #13ff7c !important;
+}
+
+#right:active {
+  background-color: #fed93f !important;
+}
+
+#bottom:active {
+  background-color: #ff4c4c !important;
+}
+
+.display {
+    width: 60px;
+    position: relative;
+    text-align: center;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.led-off {
+    color: #430710;
+}
+
+.count {
+    font-family: 'VT323', monospace;
+    color: #DC0D29;
+    font-size: 2em;
+    width: 100px;
+    height: 40px;
+    background-color: #32050C;
+    position: relative;
+    border: 4px solid #222;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-top: 6%;
+}
+
+.label {
+    color: #222;
+    font-family: 'Oswald',Arial,sans;
+    font-size: 15px;
+    margin-left: 50%;
+}
+
+
+.btn-box{
+  margin-top:5%;
+  margin-left:10%;
+}
+
+.main{
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 4px solid #444;
+  box-shadow: 0px 2px 3px #222;
+  margin-bottom: 2%;
+}
+
+#strict{
+  background-color: #CC8400;
+}
+
+#start{
+  background-color: rgb(72, 91, 110);
+}
+
+#strict:active,
+#start:active{
+  transform: translateY(4px);
+}
+
+.buttonLabel{
+  color: #222;
+  font-family: 'Oswald',Arial,sans;
+  font-size:10px;
+  margin-top: 6%;
+  font-weight: bold;
+}
+
+#block1{
+  width: 20px;
+}
+
+
+#block2{
+  width: 20px;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+
+
+
