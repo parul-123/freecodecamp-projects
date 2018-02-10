@@ -1,0 +1,31 @@
+body{
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("http://vunature.com/wp-content/uploads/2016/11/space-universe-star-colors-sky-nature-galaxy-colorful-galaxies-planet-cosmos-stars-astronomy-planets-background-photos-of.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:100vh;;
+}
+
+.bg-overlay {
+    color: #fff;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#place{
+  font-size: 25px;
+}
+#desc{
+  font-size: 20px;
+}
+
+#unit{
+  color:#006dcc;
+  cursor:pointer;
+}
+#unit:hover {
+  color:#005096;
+}
+.temperature{
+  font-size: 20px;
+}
